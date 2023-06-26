@@ -5,4 +5,4 @@ Here is an implementation for max heap. This program provides you 6 options :
 3- Giving  the program a value and then delete it from your heap.
 4- Printing your heap sorted.
 5- Merging 2 heaps together and making 1 maxheap.
-6- Finding k'th biigest number in your heap.
+6- Finding k'th bigest number in your heap.
