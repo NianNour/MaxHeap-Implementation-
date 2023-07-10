@@ -1,8 +1,6 @@
 # MaxHeap-Implementation-
-Here is an implementation for max heap. This program provides you 6 options : 
-1- Making a heap using Insert function. 
-2-Finding out that your given heap is max heap or not.
-3- Giving  the program a value and then delete it from your heap.
-4- Printing your heap sorted.
-5- Merging 2 heaps together and making 1 maxheap.
-6- Finding k'th bigest number in your heap.
+This is a C# console application that implements a Max Heap data structure using an array. The program provides a menu-driven interface with multiple options for the user to interact with the heap. The options include inserting elements into the heap, checking whether the heap is a Max Heap or not, deleting a specified value from the heap, printing the elements of the heap in a sorted way, merging two heaps into one, finding the kth biggest number in the heap, and printing the heap itself.
+
+The Heap class includes methods for building a Max Heap, inserting elements, checking if the heap is a Max Heap, deleting a specified value, printing the heap sorted, printing the kth biggest number, merging two heaps, and printing the heap itself. The class also includes private methods for finding the parent, left, and right child of a node, and for performing Max Heapify operations on the heap.
+
+The Main method of the program provides a menu-driven interface for the user to interact with the heap. The user can select one of several options, and the program will perform the corresponding operation on the heap. The program also includes error handling to catch any exceptions that may occur during runtime.
