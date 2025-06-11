@@ -24,6 +24,7 @@ This C# console application implements a **Max Heap** data structure from scratc
 
 ---
 🧠 What You’ll Learn
+
 Implementation of Max Heap from scratch
 
 Manual management of arrays and memory
