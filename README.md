@@ -1,6 +1,35 @@
-# MaxHeap-Implementation-
-This is a C# console application that implements a Max Heap data structure using an array. The program provides a menu-driven interface with multiple options for the user to interact with the heap. The options include inserting elements into the heap, checking whether the heap is a Max Heap or not, deleting a specified value from the heap, printing the elements of the heap in a sorted way, merging two heaps into one, finding the kth biggest number in the heap, and printing the heap itself.
+# 🛠️ MaxHeap Implementation in C#
 
-The Heap class includes methods for building a Max Heap, inserting elements, checking if the heap is a Max Heap, deleting a specified value, printing the heap sorted, printing the kth biggest number, merging two heaps, and printing the heap itself. The class also includes private methods for finding the parent, left, and right child of a node, and for performing Max Heapify operations on the heap.
+This C# console application implements a **Max Heap** data structure from scratch, providing functionality for inserting elements, verifying the heap property, deleting elements, merging heaps, sorting, and finding the k-th largest element. It's designed as a hands-on educational tool for practicing data structures and algorithmic thinking.
 
-The Main method of the program provides a menu-driven interface for the user to interact with the heap. The user can select one of several options, and the program will perform the corresponding operation on the heap. The program also includes error handling to catch any exceptions that may occur during runtime.
+---
+
+## 🚀 Features
+
+- 🔢 Insert elements into a heap
+- ✅ Check if the current structure is a valid max-heap
+- ❌ Delete a value from the heap
+- 🧮 Print the heap in sorted order (Heap Sort)
+- 🔗 Merge two heaps
+- 🔍 Find the k-th largest element
+- 📃 Print the current heap
+- 🖥️ Console-based interactive UI
+
+---
+
+## 📂 Project Structure
+
+- `Heap.cs` – Core class with heap logic
+- `Program.cs` – Main menu-based driver with user interaction
+
+---
+🧠 What You’ll Learn
+Implementation of Max Heap from scratch
+
+Manual management of arrays and memory
+
+Algorithm complexity understanding (O(n), O(log n), O(n log n))
+
+Object-Oriented Programming in C#
+
+Basic command-line user interface
